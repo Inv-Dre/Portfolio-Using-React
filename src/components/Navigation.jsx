@@ -1,18 +1,35 @@
+import { Link, useLocation } from 'react-router-dom';
+
+
 function Navigation () {
+    const currentPage = useLocation().pathname;
+
     return (
         <nav>
             <ul>
                 <li>
-                    <a href = "#about-me">About Me</a>
+                    <Link
+                    to='/About'
+                    className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+                    >About Me</Link>   
                 </li>
                 <li>
-                    <a href = "#portfolio">Portfolio</a>
+                    <Link
+                    to='/Portfolio'
+                    className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+                    >Portfolio</Link>
                 </li>
                 <li>
-                    <a href = "#contact-me">Contact Me</a>
+                <Link
+                    to='/Contact'
+                    className={currentPage === '/Contact-me' ? 'nav-link active' : 'nav-link'}
+                    >Contact Me</Link>
                 </li>
                 <li>
-                    <a href = "#resume">Resume</a>
+                <Link
+                    to='/Resume'
+                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+                    >Resume</Link>
                 </li>
             </ul>
         </nav>

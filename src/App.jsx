@@ -1,6 +1,7 @@
 import Header from './components/Header';
-import Project from './components/Project';
+import './App.jsx'
 import Footer from './components/Footer';
+import { Outlet } from 'react-router-dom';
 
 
 
@@ -9,7 +10,7 @@ function App() {
     return (
     <>
     <Header/>
-    <Project/>
+    <Outlet/>
     <Footer/>
     </>
     );
