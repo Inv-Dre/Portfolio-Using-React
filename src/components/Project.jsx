@@ -1,16 +1,16 @@
 function Project (props){
     return (
         <>
-        <div>
-            <h4>{props.title}</h4>
-            <img src ={props.image} alt= 'pic of app'/>
-        </div>
-        <div>
+        <div className="projects">
+        <h6>{props.title}</h6> 
+        <a target='_blank' href= {props.link} ><img src ={props.image} alt= 'pic of app'/></a>
+        <div className="description">
             <p>{props.description}</p>
-            <a target='_blank' rel='' href= {props.link} >Deployed Link</a>
-            <a target='_blank' rel='' href= {props.github} >Github Repo</a>
+         </div>  
+         <div>
+            <a target='_blank'  href= {props.github} >Github Repo</a>
         </div>
-        
+        </div>
         </>
     )
 }

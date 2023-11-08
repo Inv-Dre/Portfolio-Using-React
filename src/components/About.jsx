@@ -1,7 +1,7 @@
 function About (){
     return(
     <div id= "about-me">
-        <h2>About Me</h2>
+        <h3>About Me</h3>
         <p> 
         Hello, my name is Andre Taylor II.  I have been interested in coding for a while now.
         I attempted to learn how to code using Youtube and cheaper online classes, before enrolling in the 

@@ -46,12 +46,14 @@ const projects =[
 ]
 
 function Portfolio(){
-    const project = projects.map((project)=>{ {project}})
-   
+  
     return(
-        <div>
-            <h2>PortFolio</h2>
-        <Project key ={project.title} description= {project.description} image= {project.image} github={project.github} link={project.link}/>
+        <div className='portfolio'>
+        <h3>PortFolio</h3>
+        {/* <Project key ={project.title} description= {project.description} image= {project.image} github={project.github} link={project.link}/> */}
+        <div className='flex-container'>
+        {projects.map((project)=>{return( <Project key ={project.title} title ={project.title} description= {project.description} image= {project.image} github={project.github} link={project.link}/>) })}
+        </div>
         </div>
 )}
 
