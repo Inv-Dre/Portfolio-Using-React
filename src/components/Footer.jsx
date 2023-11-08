@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div>
+    <div className='footer'>
       <ul>
         <li>
           <a href="github.com/Inv-Dre">GitHub</a>

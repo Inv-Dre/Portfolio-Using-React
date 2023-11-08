@@ -1,7 +1,11 @@
 function About (){
     return(
-    <div id= "about-me">
-        <h3>About Me</h3>
+    <div>
+        <div>
+        <h3 className="about-me">About Me</h3>
+        </div>
+        <div className="pictext">
+        <img src ="images/Me.jpg" alt='pic of me'/>
         <p> 
         Hello, my name is Andre Taylor II.  I have been interested in coding for a while now.
         I attempted to learn how to code using Youtube and cheaper online classes, before enrolling in the 
@@ -9,7 +13,7 @@ function About (){
         Even before trying to code on my own, I took a class on coding while in college. I was an Mechanical Engineering major and i took the class out of curiousity.
         I had a little bit of experience with Python, JavaScript, and HTML before i enrolled in the program. Now I have experience with Node, Express, MVC structure, and React.
         </p>
-
+        </div>
     </div>
     )
 }

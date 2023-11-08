@@ -12,22 +12,53 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.about-me {
+text-align: center;
+}
+.footer{
+  text-align: center;
+}
+.pictext{
+  width:600px;
+  display:inline-block;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+}
 .portfolio {
   text-align: center;
 }
 .flex-container {
   display: flex;
-  flex-wrap:wrap
+  flex-wrap:wrap;
+  justify-content: center;
+  
  
 }
 .projects{
-  margin: 40px;
-  padding:5px;
+  margin: 5px;
+  padding:0px;
 }
 .description{
   margin: 10px;
+  padding: 0px;
   width: 300px;
   height: 150px;
+}
+.nav-bar{
+  background-color: #747bff;
+  text-align: center;
+}
+li{
+  margin:2px;
+  padding: 4px;
+  display:inline-block
+} 
+li:hover{
+  color:#ddd
+}
+ul{
+  list-style-type: none;
 }
 
 a {
@@ -40,17 +71,15 @@ a:hover {
 }
 
 h1 {
-  margin: 0;
+  margin: 0px;
   padding: 20px 0;
-  color: #00539f;
-  text-shadow: 3px 3px 1px black;
+  color: #009f25;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.322);
   font-size: 3.2em;
   line-height: 1.1;
-  text-align: left;
+  text-align: center;
 }
-h6 {
-  font-size:x-large;
-}
+
 img {
   border: 1px solid #ddd;
   border-radius: 4px;

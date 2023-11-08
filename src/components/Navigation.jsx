@@ -5,7 +5,7 @@ function Navigation () {
     const currentPage = useLocation().pathname;
 
     return (
-        <nav className='nav-bar'>
+        <nav className='nav-bar' >
             <ul>
                 <li>
                     <Link
