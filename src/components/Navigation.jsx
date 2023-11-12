@@ -6,7 +6,7 @@ function Navigation () {
 
     return (
         <nav className='nav-bar' >
-            <ul>
+            <ul className='ul-display'>
                 <li>
                     <Link
                     to='/About'

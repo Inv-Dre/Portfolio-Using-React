@@ -1,10 +1,8 @@
 import ReactDOM from 'react-dom/client'
-import './index.css'
-
-
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
 
 import App from './App';
 import Portfolio from './components/Portfolio';

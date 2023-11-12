@@ -1,12 +1,12 @@
 function Resume (){
     return(
-        <>
         <div>
+        <div className='resume'>
             <h3>Resume</h3>
         </div>
-        <div>
+        <div >
         <a href ='https://drive.google.com/file/d/19--VF0s9o808mEufMXXcWx6-C4zEkLuD/view?usp=drive_link'>Click to veiw and download my resume</a>
-            <ul>
+            <ul className='resume-ul' >
                 <li>
                    HTML
                 </li>
@@ -30,7 +30,7 @@ function Resume (){
                 </li>
             </ul>
         </div>
-        </>
+        </div>
     )
 }
 export default Resume;

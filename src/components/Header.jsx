@@ -2,7 +2,7 @@ import Navigation from './Navigation';
 
 function Header (){
     return (
-        <div>
+        <div className='header'>
             <h1> Andre Taylor II</h1>
             <Navigation/>
         </div>

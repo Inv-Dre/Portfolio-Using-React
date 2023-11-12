@@ -1,8 +1,8 @@
 function About (){
     return(
-    <div>
+    <div className="about-me">
         <div>
-        <h3 className="about-me">About Me</h3>
+        <h3>About Me</h3>
         </div>
         <div className="pictext">
         <img src ="images/Me.jpg" alt='pic of me'/>
@@ -14,6 +14,7 @@ function About (){
         I had a little bit of experience with Python, JavaScript, and HTML before i enrolled in the program. Now I have experience with Node, Express, MVC structure, and React.
         </p>
         </div>
+
     </div>
     )
 }

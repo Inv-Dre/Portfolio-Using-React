@@ -8,11 +8,11 @@ import { Outlet } from 'react-router-dom';
 function App() {
     // returns the components of the app
     return (
-    <>
+    <div className="background-color" >
     <Header/>
     <Outlet/>
     <Footer/>
-    </>
+    </div>
     );
   }
 
