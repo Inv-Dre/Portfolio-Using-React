@@ -10,7 +10,7 @@ function App() {
     return (
     <div className="background-color" >
     <Header/>
-    <Outlet/>
+    <Outlet className='content'/>
     <Footer/>
     </div>
     );
