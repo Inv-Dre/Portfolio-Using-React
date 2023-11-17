@@ -64,6 +64,9 @@ text-align: center;
   background-color: #747bff;
   text-align: center;
 }
+.nav-link-active{
+  color: skyblue
+}
 
 li{
   margin:2px;
