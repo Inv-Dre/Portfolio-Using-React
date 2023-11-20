@@ -13,7 +13,7 @@ Portfolio displaying my projects, personal information, and resume. The purpose 
 ## Installation
 
 1. Git clone this in your terminal
-git@github.com:Inv-Dre/Portfolio-Using-React.git
+git@github.com/Inv-Dre/Portfolio-Using-React.git
 
 3. Open up the folder
 
