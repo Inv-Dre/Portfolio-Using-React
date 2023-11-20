@@ -13,14 +13,15 @@ Portfolio displaying my projects, personal information, and resume. The purpose 
 ## Installation
 
 1. Git clone this in your terminal
+git@github.com:Inv-Dre/Portfolio-Using-React.git
 
-2. Open up the folder
+3. Open up the folder
 
-3. Type npm i into your terminal and hit enter
+4. Type npm i into your terminal and hit enter
    
-4. The dependencies should install 
+5. The dependencies should install 
   
-5. Next step is to type npm run start to run the app
+6. Next step is to type npm run start to run the app
 
 
 ## Deployed-App
