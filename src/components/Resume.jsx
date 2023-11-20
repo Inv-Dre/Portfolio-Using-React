@@ -5,7 +5,8 @@ function Resume (){
             <h3>Resume</h3>
         </div>
         <div >
-        <a href ='https://drive.google.com/file/d/19--VF0s9o808mEufMXXcWx6-C4zEkLuD/view?usp=drive_link'>Click to veiw and download my resume</a>
+        <a href ='https://drive.google.com/file/d/19--VF0s9o808mEufMXXcWx6-C4zEkLuD/view?usp=drive_link'>Click to view and download my resume</a>
+        <p>Frontend</p>
             <ul className='resume-ul' >
                 <li>
                    HTML
@@ -14,21 +15,43 @@ function Resume (){
                    CSS
                 </li>
                 <li>
-                  Express
+                  React
                 </li>
                 <li>
-                  Node
+                 Handlebars
                 </li>
                 <li>
-                   JavaScript
+                  BootStrap
                 </li>
                 <li>
-                   Sql/Sequelize
+                  JQuery
                 </li>
                 <li>
-                  MongoDB/Mongoose
+                  Webpack
                 </li>
+                <li>
+                JavaScript
+              </li>
             </ul>
+            <p>Backend</p>
+            <ul>
+              <li>
+                Express
+              </li>
+              <li>
+                Node
+              </li>
+              <li>
+                Sql/Sequelize
+              </li>
+              <li>
+                NoSql/MongoDb/Mongoose
+              </li>
+              <li>
+                JavaScript
+              </li>
+            </ul>
+
         </div>
         </div>
     )
