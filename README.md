@@ -4,24 +4,14 @@ Portfolio displaying my projects, personal information, and resume. The purpose 
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-- [Deployed-App](#Deployed-App)
+- [Screenshot](#screenshot)
 
 
 ## Description
 Portfolio displaying my projects, personal information, and resume. The purpose of the portfolio is to show possible employers my skillset. I used react and vite to build this app.
 
-## Installation
-
-1. Git clone this in your terminal
-git@github.com:Inv-Dre/Portfolio-Using-React.git
-
-3. Open up the folder
-
-4. Type npm i into your terminal and hit enter
-   
-5. The dependencies should install 
-  
-6. Next step is to type npm run start to run the app
+## Screenshot
+![React Portfolio Screenshot](https://github.com/Inv-Dre/Portfolio-Using-React/assets/135474781/287d0173-67aa-4b2a-b291-a143be1fc75c)
 
 
 ## Deployed-App
